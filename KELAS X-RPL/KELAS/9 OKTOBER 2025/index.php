@@ -2,12 +2,12 @@ belajar php
 <h1>saya belajar php</h1>
 
  <?php 
-$nama = "Nur Iman Pambudi Luhur";
+$nama = "Fabio Ernesta Harianto";
 $kelas = 12;
 $umur = 16;
-$alamat = "taman pinang asri";
-$hobi = "ngedit,ngoding,ngocok";
-$cita = "editor";
+$alamat = "Pondok Mutiara";
+$hobi = "bermain basket,ngoding,bermain badminton";
+$cita = "programmer";
 
 echo $nama;
 echo $enter;
