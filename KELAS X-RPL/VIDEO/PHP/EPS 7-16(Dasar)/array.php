@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php 
 
 // array dimensi
@@ -43,4 +44,51 @@ foreach ($nama as $key => $value) {
 
     echo "<br>";
 }
+=======
+<?php 
+
+// array dimensi
+
+// $nama = array("Joni", "Tejo", "Budi", "Siti",100, 2.5);
+
+// var_dump($nama);
+
+// echo "<br>";
+
+// echo $nama[5];
+
+// echo "<br>";
+
+// for ($i = 0; $i < 6; $i++) {
+//     // echo $i;
+//     echo $nama[$i]. "<br>";
+// }
+
+//array asosiatif
+
+// $nama = array(
+//     "Joni" => "Surabaya",
+//     "Budi" => "Malang",
+//     "Tejo" => "Jakarta",
+//     "Siti" => "Sidoarjo",
+// );
+
+$nama['Joni']="Surabaya";
+$nama['Budi']="Malang raya";
+$nama['Tejo']="Jakarta";
+$nama['Siti']="Sidoarjo";
+$nama["Edi"]="Semarang";
+
+var_dump($nama);
+
+echo "<br>";
+
+// echo $nama['Budi'];
+
+foreach ($nama as $key => $value) {
+    echo $key."=>".$value;
+
+    echo "<br>";
+}
+>>>>>>> 1345b1f95106050deba71cb1729a52547135453c
 ?>

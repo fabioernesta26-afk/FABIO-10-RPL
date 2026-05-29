@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <form action="" method="post">
     email :
     <input type = "email" name="email">
@@ -20,4 +21,28 @@
 
     
 
+=======
+<form action="" method="post">
+    email :
+    <input type = "email" name="email">
+    password :
+    <input type= "password" name = "password">
+    <input type="submit" name =  "kirim" value = "login">
+</form>
+
+<?php 
+
+    if (isset($_POST['kirim'])) {
+
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    echo $email;
+    echo '<br>';
+    echo $password;
+    }
+
+    
+
+>>>>>>> 1345b1f95106050deba71cb1729a52547135453c
 ?>
